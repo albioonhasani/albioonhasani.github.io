@@ -1,0 +1,125 @@
+body {
+    background-color: #000000;
+    font-family: 'Copperplate'   
+    
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+      font-family: 'Copperplate Gothic', serif;}
+}
+
+
+
+.ahinfotxt {
+    text-align: center;
+   }
+
+header {
+    background-color: #000000;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+
+.ahlogoja {
+    width: 13em;
+    transition: transform 5s;
+}
+
+.ahlogo:hover {
+    transform: scale(1.03);
+    filter: blur(100%);
+}
+
+
+}
+
+
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 16px;
+    padding: 16px;  
+}
+
+.grid-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.dropbtn {
+    max-width: 2.5em;
+    margin-left: 38% ;
+}
+
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown-content p {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dropdown-content li {
+    margin-bottom: 5px;
+  }
+  
+ 
+
+
+
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #fff;
+    margin-right: 0%
+}
+
+.footer {
+    border-top: 5px solid #262830;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    
+    a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+  
+      a:hover {
+        color: #555555;
+      }
+
+}
+
+

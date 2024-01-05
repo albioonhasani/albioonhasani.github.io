@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sSkY Performance</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="assets/buy.css">
+</head>
+
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+                <div class="container">
+    
+                    <div class="ahlogo">
+                        <a href="sSkYhome.html">   
+                      <img src="images/nobgssky.png" class="ahlogoja"> 
+                    </a>         
+                    </div>
+     
+                  </div>
+            </nav>
+            
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-verydark">
+            <div class="container d-flex justify-content-center align-items-center">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="sSkYhome.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sSkYabout.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Log in/Sign up</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+<br>
+    <div class="container">
+        <form id="buyForm">
+            <div class="form-group">
+                <label for="partCategory">Select Category:</label>
+                <select class="form-control" id="partCategory" onchange="populateImages()" required>
+                    <option value="motorsport">Motorsport</option>
+                    <option value="performance">Performance</option>
+                    <option value="tools">Tools & Workshop</option>
+                    
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="partImage">Select Image:</label>
+                <div class="image-container" id="imageContainer"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" min="1" value="1" required>
+            </div>
+
+            <div class="form-group total-price">
+                Total Price: $<span id="totalPrice">0.00</span>
+            </div>
+
+            <button type="submit" class="btn btn-success">Buy Now</button>
+        </form>
+    </div>
+
+
+    <br><div class="payment">
+    <img src="images/visa-mastercard-paypal.png">
+</div>
+<br>
+
+
+
+
+    <footer class="ahfooter">
+        <div class="ahcontainer">
+            <p>&copy; 2023 sSkY Performance<br> All rights reserved.</p>
+            <a href="login.html" class="btn btn-dark"> Join us!</a>
+            <br>  
+            <br>  
+            <a class="nav-link" href="deliverys.html">Delivery Rate</a>
+            <a class="nav-link" href="returnpolicy.html">Return Policy</a>
+              
+          </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+    <script src="buy.js"></script>
+</body>
+
+
+
+
+
+</html>

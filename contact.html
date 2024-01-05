@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sSkY Performance</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  
+    <link rel="stylesheet" href="assets/contact.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bookman+Old+Style&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container">
+
+                <div class="ahlogo">
+                    <a href="sSkYhome.html">   
+                  <img src="images/nobgssky.png" class="ahlogoja"> 
+                </a>         
+                </div>
+ 
+              </div>
+        </nav>
+        
+    </header>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-verydark">
+  <div class="container d-flex justify-content-center align-items-center">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="sSkYhome.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="sSkYabout.html">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="login.html">Log in/Sign up</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+    
+
+    <div class="ahcontainer">
+
+        <div class="row">
+          <div class="col-md-6">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+              </div>
+              <button type="button" class="btn btn-secondary" onclick="submitForm()">Submit</button>
+            </form>
+          </div>
+      
+          
+          <div class="col-md-6 contact-info">
+                <br><br>
+                <div class="ahcinfo">
+            <h4>Contact Information</h4>
+            <p><strong><img src="images/mail.png" class="ahmail">&nbsp; </strong>sskyperformance@gmail.com</p>
+            <p><strong><img src="images/ig.png" class="ahig">&nbsp; </strong> <a href="https://www.instagram.com/sskyperformance/" target="_blank">@sskyperformance</a></p>
+            <p><strong><img src="images/location.png" class="ahlocation">&nbsp; </strong> Vushtrri, Kosovo</p>
+        </div>
+      </div>   
+        </div>
+      </div>
+      
+     
+
+    <br>
+    <footer class="ahfooter">
+        <div class="ahcontainer">
+            <p>&copy; 2023 sSkY Performance<br> All rights reserved.</p>
+            <a href="login.html" class="btn btn-dark"> Join us!</a>
+            <br>  
+            <br>  
+                <a style="color: aliceblue;" class="nav-link" href="deliverys.html">Delivery Rate</a>
+                <a style="color: aliceblue;" class="nav-link" href="returnpolicy.html">Return Policy</a>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <script src="contact.js"></script>
+</body>
+</html>

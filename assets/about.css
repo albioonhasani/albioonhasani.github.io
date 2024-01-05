@@ -1,0 +1,97 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Copperplate', serif;
+  
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+      font-family: 'Copperplate Gothic', serif;}
+}
+
+.ahinfotxt {
+    text-align: center;
+   }
+
+.ahtxtcontainer{
+    text-align: left;
+    padding-right: 5%;
+    padding-left: 2%;
+
+.ahssky {
+    text-align: center;
+}
+
+}
+
+.ahcontainer {
+    margin-top: 1.5%;
+    text-align: center;
+   
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+
+.ahlogoja {
+    width: 13em;
+    overflow: hidden;
+    transition: transform 5s;
+}
+
+.ahlogo:hover {
+    transform: scale(1.03);
+}
+}
+
+.navbar-nav { 
+    padding-top: 0%;
+}
+.navbar-brand {
+    font-size: 1em;
+    display: flex;
+        justify-items: center;
+        align-items: center;
+}
+
+.navbar {
+    background-color: #000000;
+    margin: 0%;
+    padding: 0%;
+}
+
+.ahbutoni{
+    text-align: center;   
+}
+
+
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 0%
+}
+
+
+.ahfooter {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+a {
+    color: #000000;
+  }
+
+  .ahguidelines {
+    color: #fff;
+}
